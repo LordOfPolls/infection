@@ -23,4 +23,4 @@ if __name__ == "__main__":
     bot = Bot()
     load_extensions()
     log.info("Starting Client...")
-    bot.start("OTk5NjA1ODY3NDc5NTY4Mzk0.G1Zk0N.aCCupK_iIzil-WD3ZDA7X0kxBUYG1sUGUp2zio")
+    bot.start(os.environ["DISCORD_TOKEN"])
